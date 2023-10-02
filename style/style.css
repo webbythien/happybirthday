@@ -246,12 +246,34 @@ body {
     left: 34%;
     top: -2% !important;
   }
+  .baloons img:nth-child(even) {
+    left: -80%;
+  }
+  
+  .baloons img:nth-child(odd) {
+    left: -50%;
+  }
+  
+  .baloons img:nth-child(3n + 0) {
+    left: -90%;
+  }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
     left: 34%;
     top: -2% !important;
+  }
+  .baloons img:nth-child(even) {
+    left: -80%;
+  }
+  
+  .baloons img:nth-child(odd) {
+    left: -50%;
+  }
+  
+  .baloons img:nth-child(3n + 0) {
+    left: -90%;
   }
 }
 
@@ -260,6 +282,17 @@ body {
     left: 34%;
     top: -2% !important;
     transform: scale(0.5) !important;
+  }
+  .baloons img:nth-child(even) {
+    left: -80%;
+  }
+  
+  .baloons img:nth-child(odd) {
+    left: -50%;
+  }
+  
+  .baloons img:nth-child(3n + 0) {
+    left: -90%;
   }
 }
 
