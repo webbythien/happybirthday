@@ -243,18 +243,21 @@ body {
 @media screen and (max-height: 800px) {
   .six .hat {
     left: 37%;
+    top: 3%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
     left: 32%;
+    top: 3%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 32%;
+    top: 3%;
   }
 }
 
@@ -331,5 +334,15 @@ body {
 
 .pause{
   display: none;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .reponsive-btn{
+      left: 16% !important;
+    }
 }
 
