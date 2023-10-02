@@ -338,13 +338,10 @@ body {
   display: none;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media screen and (max-height: 850px) and (max-width: 450px) {
     .reponsive-btn{
       left: 14% !important;
     }
 }
+
 
