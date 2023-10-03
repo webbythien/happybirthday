@@ -251,11 +251,11 @@ body {
   }
   
   .baloons img:nth-child(odd) {
-    left: -50%;
+    display: none;
   }
   
   .baloons img:nth-child(3n + 0) {
-    display: none;
+    left: -50%;
   }
 }
 
@@ -269,11 +269,11 @@ body {
   }
   
   .baloons img:nth-child(odd) {
-    left: -50%;
+    display: none;
   }
   
   .baloons img:nth-child(3n + 0) {
-    display: none;
+    left: -50%;
   }
 }
 
@@ -288,11 +288,11 @@ body {
   }
   
   .baloons img:nth-child(odd) {
-    left: -50%;
+    display: none;
   }
   
   .baloons img:nth-child(3n + 0) {
-    display: none;
+    left: -50%;
   }
 }
 
